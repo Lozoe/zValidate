@@ -1,0 +1,12 @@
+html{font-size:31.25VM}
+body{font:12px/19px Arial,Helvetica,sans-serif;color:#666}
+.title{text-align:center}
+.wrapper{max-width:350px;height:100%;margin:0 auto;overflow:hidden}
+.container{height:100%;width:98%;border:1px solid #CCC;border-radius:3px;background-color:aliceblue}
+.my-form{display:-webkit-box;display:-webkit-flex;display:box;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;box-orient:vertical;box-direction:normal;flex-direction:column}
+.int,.sub{display:-webkit-box;display:-webkit-flex;display:box;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;box-orient:horizontal;box-direction:normal;flex-direction:row;padding:.3rem}
+.int label{width:5rem}
+.int input{border:1px solid #ccc;outline:0}
+.sub input{margin:.3rem auto;border-radius:5px;cursor:pointer}
+.sub input:first-child{margin-right:.2rem}
+.sub input:last-child{margin-left:.2rem}
